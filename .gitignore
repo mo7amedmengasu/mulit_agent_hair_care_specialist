@@ -1,0 +1,25 @@
+# Ignoring compiled Python files
+*.pyc
+__pycache__/
+
+# Ignoring Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignoring FAISS index files
+*.faiss
+
+# Ignoring input images
+input_images/
+
+# Ignoring system files
+.DS_Store
+Thumbs.db
+
+# Ignoring logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignoring virtual environment
+venv/
+.env
